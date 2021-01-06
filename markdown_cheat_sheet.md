@@ -68,13 +68,67 @@ The _cat meow_
 >```
 >**Note:** Html tags can also be used
 
->**Nesting list Items**
+>**Nesting list Items** <br>
 >To nest items in **\<ol>** indent the items four spaces or one tab
 >```markdown
 >1. First item
 >2. Second item
 >    1. Indented item
 >    2. Indented item
+>``` 
+
+
+>**Unordered Lists**<br>
+>Add dashes, asterisks, or plus sign in front of line items
+>```markdown
+>- First item
+>- Second item
+>    + First indented
+>    * Second indented
+>```
+>sample:
+>- First item
+>- Second item
+>    + First indented
+>    * Second indented
+
+## Images
+
+```markdown
+![Markdown logo](https://markdown-here.com/img/icon256.png)
+```
+![Markdown logo](https://markdown-here.com/img/icon256.png)
+
+
+> or <br>
+Use html tags
+```html
+<p><img src="images/tux.jpg" alt="Tux" /></p>
+```
+<br>
+<p><img src="images/tux.jpg" alt="Tux" /></p>
+
+## Horizontal Rules
+>Use three or more asterisks, dashes , or underscores on a line by themselves
+
+```markdown
+***
+---
+____
+```
+>sample:
+>***
+>---
+>___
+><br>
+
+## Links
+>Enclose the link text in brackets then follow immediately with the url in parenthesis
+ ```markdown
+ [Duck Duck Go] (https://duckduckgo.com)
+ ```
+
+
 
 
 
